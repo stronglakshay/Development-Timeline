@@ -1,39 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Index</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strong Lakshay — Portfolio</title>
+<link rel="stylesheet" href="portfolio.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-            
-    <div class="main-container">
-        <div class="first">PAGE-01</div>
-                
-            <div class="heading"><h1>STRONG<span>LAKSHAY</span></h1></div>
-                <div class="grid">
-                    <div class="group">
-                        <div class="element">FULL STACK DEVELOPER / AGENTIC AI / DATA ANALYTICS • FULL STACK DEVELOPER / AGENTIC AI / DATA ANALYTICS • FULL STACK DEVELOPER / AGENTIC AI / DATA ANALYTICS •</div>
-                        <div class="element">FULL STACK DEVELOPER / AGENTIC AI / DATA ANALYTICS • FULL STACK DEVELOPER / AGENTIC AI / DATA ANALYTICS • FULL STACK DEVELOPER / AGENTIC AI / DATA ANALYTICS •</div>
-                    </div>
-                </div>
-            
-                <div class="select" id="option">
-                     <div class="box">
-                            <a href="https://github.com/stronglakshay" target="_blank"><img src="https://simpleicons.org/icons/github.svg" alt="github"></a>
-                    </div>
-                    <div class="box">
-                            <a href="about.html" target="_blank"><img src="https://simpleicons.org/icons/aboutdotme.svg" alt="about me"></a>
-                    </div>
-                </div>
-                
-    </div>
+
+  <!-- print registration marks — small poster-authenticity detail -->
+  <div class="reg-mark reg-tl" aria-hidden="true"></div>
+  <div class="reg-mark reg-tr" aria-hidden="true"></div>
+  <div class="reg-mark reg-bl" aria-hidden="true"></div>
+  <div class="reg-mark reg-br" aria-hidden="true"></div>
+
+  <main class="poster">
+
+    <!-- HERO: huge cropped name, bleeding off the frame -->
+    <section class="hero">
+      <div class="crop-text" aria-hidden="true">
+        <span class="line line-1">STRONG</span>
+        <span class="line line-2">LAKSHAY</span>
+      </div>
+      <h1 class="sr-only">Strong Lakshay — Portfolio</h1>
+
+      <div class="tagline-band">
+        <div class="tagline-track">
+          <span>FULL STACK DEVELOPER&nbsp;&middot;&nbsp;AGENTIC AI&nbsp;&middot;&nbsp;DATA ANALYTICS&nbsp;&middot;&nbsp;</span>
+          <span>FULL STACK DEVELOPER&nbsp;&middot;&nbsp;AGENTIC AI&nbsp;&middot;&nbsp;DATA ANALYTICS&nbsp;&middot;&nbsp;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISUAL STRIP: halftone / scanline motion, standing in for the poster photo band -->
+    <section class="visual-strip" aria-hidden="true">
+      <div class="halftone-layer"></div>
+      <div class="scan-layer"></div>
+      <div class="strip-label">
+        <span>PORTFOLIO_2026</span>
+        <span>/// BUILD &amp; SHIP</span>
+      </div>
+    </section>
+
+    <!-- INFO BAR: bottom bar echoing the poster's sponsor / date row -->
+    <footer class="info-bar">
+      <div class="brand-mark">SL<span>°</span></div>
+
+      <div class="info-columns">
+        <div class="info-col">
+          <span class="info-label">STATUS</span>
+          <span class="info-value">OPEN&nbsp;TO&nbsp;WORK</span>
+        </div>
+        <div class="info-col">
+          <span class="info-label">BASED</span>
+          <span class="info-value">GURUGRAM,&nbsp;IN</span>
+        </div>
+      </div>
+
+      <nav class="info-links">
+        <a href="about.html">AB0UT&nbsp;ME</a>
+        <a href="projects.html">PR0JECTS</a>
+        <a href="contact.html">C0NTACT</a>
+      </nav>
+
+      <div class="info-footnote">
+        <span>REACT&nbsp;/&nbsp;NODE&nbsp;/&nbsp;SUPABASE&nbsp;/&nbsp;PYTHON</span>
+        <span class="sep">—</span>
+        <span>GITHUB:&nbsp;STRONGLAKSHAY</span>
+      </div>
+    </footer>
+
+  </main>
+
 </body>
 </html>
